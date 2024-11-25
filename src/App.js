@@ -1,9 +1,11 @@
-
+import Address from './pages/Address.js';
+import Home from './pages/Home.js';
+import Map from './pages/Map.js';
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+   <>
+  <Map/>
+   </>
   );
 }
 
