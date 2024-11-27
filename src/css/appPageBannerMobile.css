@@ -1,0 +1,70 @@
+@media screen and (min-width:1px){
+    .appPageBannerMobile{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+@media screen and (min-width:300px){
+    .appPageBannerMobile{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+    }
+    .appPageBannerSubtitleMobile {
+color:rgb(153, 204, 51);
+font-size:25px;
+margin-bottom:7vh;
+margin-left:5vw;
+font-weight:bolder;
+    }
+
+    .appPageBannerParagraphMobile {
+        color:black;
+        font-size:20px;
+        line-height:30px;
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        word-break:break-all;
+    }
+    .appPageBannerListMobile{
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        font-size:20px;
+        line-height:30px;
+        
+    }
+
+    .appPageBannerImgMobile{
+        width:94vw;
+        margin-left:3vw;
+        margin-top:10vh;
+        margin-bottom:10vh;
+
+    }
+        .appPageBannerTitleMobile{
+            margin-bottom:15vh;
+            color: #99cc33;
+            text-shadow: rgb(0, 0, 0) 2px 2px 4px;
+            font-size:40px;
+            font-weight:bolder;
+            width:90vw;
+            margin-left:5vw;
+            text-align:center;
+        }
+    }
+
+@media screen and (min-width:1024px){
+    .appPageBannerMobile{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}

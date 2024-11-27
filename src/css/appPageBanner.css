@@ -1,0 +1,123 @@
+@media screen and (min-width:1px){
+    .appPageBanner{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .appPageBanner{
+        max-width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+    }
+
+    .appPageBannerList{
+        width:37vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        font-size:20px;
+        line-height:30px;
+    }
+    .appPageBannerTitle{
+        color: #99cc33;
+        text-shadow: rgb(0, 0, 0) 2px 2px 4px;
+        font-size:40px;
+        font-weight:bolder;
+        margin-bottom:5vh;
+        width:80vw;
+        margin-left:10vw;
+        text-align:center;
+    }
+    .appPageBannerGridContainer{
+        display:grid;
+        grid-template-columns:1fr,1fr;
+        grid-template-rows:1fr,1fr,1fr;
+        margin-top:10vh;
+    }
+
+    .appPageBannerGrid1{
+        grid-column:1;
+        margin-top:9vh;
+
+
+        width:46vw;
+        grid-row:1;
+    }
+    .appPageBannerGrid2{
+        grid-column:2;        
+        margin-top:9vh;
+
+
+        width:46vw;
+        grid-row:1;
+    }
+    .appPageBannerGrid3{
+        margin-top:9vh;
+
+        width:46vw;
+        grid-column:1;
+        grid-row:2;
+    }
+    .appPageBannerGrid4{
+        grid-column:2;
+        margin-top:9vh;
+
+        width:46vw;
+        grid-row:2;
+    }
+    .appPageBannerGrid5{
+        grid-column:1;
+        grid-row:3;
+        width:46vw;
+        margin-top:9vh;
+
+    }
+    .appPageBannerGrid6{
+        grid-column:2;
+        grid-row:3;
+        width:46vw;
+        margin-top:9vh;
+
+    }
+    .appPageBannerParagraph{
+        color:black;
+        font-size:20px;
+        line-height:30px;
+        width:80vw;
+        margin-left:10vw;
+        margin-bottom:7vh;
+    }
+
+    .appPageBannerFlexContainer{
+        display:flex;
+        width:100%;
+        padding-left:18vw;
+        padding-right:18vw;
+        gap:3vw;
+    }
+
+    .appPageBannerImg1{
+        width:25vw;
+        height:20vh;
+        margin-left:3vw;
+
+    }
+
+    .appPageBannerImg2{
+        width:32vw;
+        margin-left:5vw;
+    }
+    .appPageBannerSubtitle {
+        color:rgb(153, 204, 51);
+        font-size:25px;
+        margin-bottom:7vh;
+        margin-left:5vw;
+        font-weight:bolder;
+            }
+
+}

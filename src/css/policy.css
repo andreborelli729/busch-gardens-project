@@ -1,0 +1,64 @@
+@media screen and (min-width:1px){
+    .policy{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:300px){
+    .policy{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+        margin-top:10vh;
+    }
+    .policyParagraph{
+        color:black;
+        font-size:20px;
+        line-height:30px;
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+    }
+
+    .policyList{
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        font-size:20px;
+        line-height:30px;
+    }
+
+    .policyTitle{
+        margin-bottom:15vh;
+        color: #99cc33;
+        text-shadow: rgb(0, 0, 0) 2px 2px 4px;
+        font-size:40px;
+        font-weight:bolder;
+        width:90vw;
+        margin-left:5vw;
+        text-align:center;
+    }
+}
+
+
+
+@media screen and (min-width:1024px){
+
+    .policyTitle, .policyParagraph, .policyList{
+        width:70vw;
+        margin-left:15vw;
+    }
+
+    .policyItem{
+        font-size:20px;
+        color:black;
+        
+    }
+
+
+}

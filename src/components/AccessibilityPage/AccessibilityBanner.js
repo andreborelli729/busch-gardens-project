@@ -9,7 +9,7 @@ function AccessibilityBanner(){
             <img src={accessibilityBanner} alt="pessoas se divertindo em uma montanha russa do parque Busch Gardens Tampa Bay" className="accessibilityBannerImg"></img>
             <h2 className="accessibilityBannerTitle">Acessibilidade</h2>
             <p className="accessibilityBannerParagraph">O Busch Gardens Tampa Bay está comprometido a fornecer acessibilidade para todos os visitantes.</p>
-            <h4 className="accessibilityBannerSubTitle">O Busch Gardens Tampa Bay está comprometido a fornecer acessibilidade para todos os visitantes.</h4>
+            <h4 className="accessibilityBannerSubtitle">Programa de Acessibilidade nas Atrações</h4>
             <img src={accessibilityImg} alt="pessoas se divertindo em uma montanha russa do parque Busch Gardens Tampa Bay" className="accessibilityImg"></img>
             <p className="accessibilityBannerParagraph">O Programa de Acessibilidade de Atrações (RAP, sigla em inglês) do Busch Gardens foi desenvolvido para permitir que todos os visitantes participem das atividades e aproveitem nosso parque, tendo em mente os requisitos de segurança de nossas atrações.</p>
             <p className="accessibilityBannerParagraph">O programa foi desenvolvido com base na avaliação dos atributos físicos e mentais necessários para participar de cada atração. Todas as instalações e serviços disponíveis para visitantes com mobilidade reduzida podem ser encontrados no nosso guia de acessibilidade. É nosso compromisso fornecer um ambiente agradável e seguro para todos os visitantes.</p>

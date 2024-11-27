@@ -1,0 +1,135 @@
+@media screen and (min-width:1px){
+    .weather{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:300px){
+    .weather{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+        margin-top:10vh;
+    }
+    .weatherImg{
+        width:100%;
+    }
+
+    .weatherBtn{
+        color:white;
+        background-color:rgb(153, 204, 51);
+        font-size:16px;
+        font-weight:bold;
+        text-transform:uppercase;
+        text-align:center;
+        height:8.3vh;
+        width:90vw;
+        margin-left:5vw;
+        border:none;
+        margin-bottom:7vh;
+        cursor:pointer;
+    }
+
+
+    .weatherParagraph, .weatherParagraph2{
+        color:black;
+        font-size:20px;
+        line-height:30px;
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        word-break:break-all;
+    }
+    .weatherSpan{
+        font-size:20px;
+        margin-bottom: 7vh;
+        line-height:30px;
+        width:90vw;
+        margin-left:5vw;
+        font-weight:bold;
+        color:black;
+    }
+
+    .weatherList{
+        width:90vw;
+        margin-left:5vw;
+        margin-bottom:7vh;
+        font-size:20px;
+        line-height:30px;
+        
+    }
+
+    .weatherTitle{
+        margin-bottom:15vh;
+        color: #99cc33;
+        text-shadow: rgb(0, 0, 0) 2px 2px 4px;
+        font-size:40px;
+        font-weight:bolder;
+        width:90vw;
+        margin-left:5vw;
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:500px){
+.weatherBtn{
+    width:60vw;
+    margin-left:20vw;
+    height:6vh;
+}
+}
+
+@media screen and (min-width:800px){
+    .weatherBtn{
+        width:60vw;
+        margin-left:20vw;
+        height:4vh;
+    }
+    }
+
+@media screen and (min-width:1024px){
+
+    .weatherTitle, .weatherParagraph, .weatherList, .weatherSpan{
+        width:70vw;
+        margin-left:15vw;
+    }
+    .weatherGridContainer{
+        display:grid;
+        grid-template-columns:1fr,1fr;
+    }
+
+    .weatherTextContainer1{
+        grid-column:1;
+        width:50vw;
+
+    }
+
+    .weatherImgContainer{
+        grid-column:2;
+        width:50vw;
+    }
+    .weatherItemSpan{
+        font-size:20px;
+        color:black;
+        
+    }
+    .weatherImg{
+        width:32vw;
+        margin-left:6vw;
+    }
+.weatherBtn{
+width:40vw;
+margin-left:30vw;
+
+}
+
+.weatherParagraph2{
+    width:40vw;
+    margin-left:15vw;
+}
+}
