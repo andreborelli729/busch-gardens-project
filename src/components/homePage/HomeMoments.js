@@ -16,7 +16,7 @@ function HomeMoments(){
             </div>
             </div>
             <div className="homeMomentsGridContainer">
-            <div className="homeMomentsContainer">
+            <div className="homeMomentsContainer2">
 
 <img src={moment2} alt="Decoração de natal" className="homeMomentsImg2"></img>
 <div className="homeMomentsTextContainer2">

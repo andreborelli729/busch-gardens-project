@@ -10,14 +10,16 @@ import AppPage from './pages/AppPage.js';
 import Transport from './pages/Transport.js';
 import Page404 from './pages/Page404.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 
 function MyRoutes(){
     return(
         <Router>
+            <Navbar/>
            <Routes>
            <Route exact path="/" element={<Home/>}></Route>
-           <Route path="/endereço" element={<Address/>}></Route>
+           <Route path="/endereco" element={<Address/>}></Route>
            <Route path="/mapa" element={<Map/>}></Route>
            <Route path="/acessibilidade" element={<Accessibility/>}></Route>
            <Route path="/cashless" element={<Cashless/>}></Route>
@@ -33,6 +35,7 @@ function MyRoutes(){
 
 
             </Routes>
+            <Footer/>
         </Router>
     );
 }
