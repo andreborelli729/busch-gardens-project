@@ -76,3 +76,70 @@
     }
 
 }
+
+@media screen and (min-width:1300px){
+
+    .accessibilityBannerTitle{
+        font-size:46px;
+    }
+
+    .accessibilityBannerParagraph, .accessibilityBannerSpan{
+        font-size:26px;
+    }
+    .accessibilityBannerSubtitle{
+        font-size:30px;
+    }
+    }
+
+
+
+    @media screen and (min-width:1024px){
+
+        .accessibilityImg, .accessibilityBannerParagraph, .accessibilityBannerSubtitle, .accessibilityBannerTitle, .accessibilityBannerSpan{
+            width:70vw;
+            margin-left:15vw;
+        }
+    
+    }
+    
+    @media screen and (min-width:1300px){
+    
+        .accessibilityBannerTitle{
+            font-size:46px;
+        }
+    
+        .accessibilityBannerParagraph, .accessibilityBannerSpan{
+            font-size:26px;
+        }
+        .accessibilityBannerSubtitle{
+            font-size:30px;
+        }
+        }
+    
+        @media screen and (min-width:1600px){
+    
+            .accessibilityBannerTitle{
+                font-size:52px;
+            }
+        
+            .accessibilityBannerParagraph, .accessibilityBannerSpan{
+                font-size:30px;
+            }
+            .accessibilityBannerSubtitle{
+                font-size:34px;
+            }
+            }
+
+            @media screen and (min-width:1800px){
+    
+                .accessibilityBannerTitle{
+                    font-size:56px;
+                }
+            
+                .accessibilityBannerParagraph, .accessibilityBannerSpan{
+                    font-size:34px;
+                }
+                .accessibilityBannerSubtitle{
+                    font-size:38px;
+                }
+                }

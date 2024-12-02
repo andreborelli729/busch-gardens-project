@@ -1,0 +1,153 @@
+@media screen and (min-width:1px){
+    .homeMoments{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .homeMoments{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+        margin-bottom:40vh;
+    }
+
+    .homeMomentsContainer1{
+        width:100vw;
+        height:90vh;
+    }
+
+    .homeMomentsTextContainer, .homeMomentsTextContainer2{
+        margin-top:-50vh;
+    }
+
+    .homeMomentsImg{
+        width:100vw;
+        height:80vh;
+        border-radius:5px;
+    }
+
+    .homeMomentsGridContainer{
+        display:grid;
+        grid-template-columns:1fr,1fr;
+    }
+
+    .homeMomentsContainer2{
+        grid-column:1;
+        width:50vw;
+        padding-left:2vw;
+
+
+    }
+
+    .homeMomentsContainer3{
+        grid-column:2;
+        width:50vw;
+        padding-left:4vw;
+
+    }
+
+    .homeMomentsImg2{
+        width:48vw;
+        height:70vh;
+        border-radius:5px;
+    }
+
+    .homeMomentsTextContainer, .homeMomentsParagraph, .homeMomentsTitle{
+        width:60vw;
+        margin-bottom:4vh;
+        color:white;
+    }
+
+    .homeMomentsTextContainer2, .homeMomentsParagraph2, .homeMomentsTitle2, .homeMomentsSpan{
+        width:40vw;
+        margin-bottom:4vh;
+        color:white;
+
+    }
+
+    .homeMomentsTitle, .homeMomentsTitle2{
+        font-weight:bold;
+        font-size:26px;
+        margin-left:5vw;
+
+    }
+
+    .homeMomentsSpan, .homeMomentsParagraph,.homeMomentsParagraph2{
+        font-size:20px;
+        margin-left:5vw;
+
+    }
+
+    .homeMomentsSpan{
+        font-weight:bold;
+        margin-left:5vw;
+
+    }
+
+
+    .homeMomentsBtn, .homeMomentsBtn2{
+    text-transform: uppercase;
+    margin-left:5vw;
+
+    background-color:rgb(153, 204, 51);
+border-radius:5px;
+color:white;
+border:none;
+font-size:22px;
+font-weight:bold;
+width:20vw;
+cursor:pointer;
+
+    }
+    .homeMomentsBtn{
+        height:12vh;
+    }
+
+    .homeMomentsBtn2{
+        height:8vh;
+    }
+
+
+}
+
+@media screen and (min-width:1400px){
+.homeMomentsTitle, .homeMomentsTitle2{
+    font-size:32px;
+}
+
+.homeMomentsParagraph, .homeMomentsParagraph2, .homeMomentsSpan{
+   font-size:25px; 
+}
+
+
+}
+
+@media screen and (min-width:1600px){
+    .homeMomentsTitle, .homeMomentsTitle2{
+        font-size:38px;
+    }
+    
+    .homeMomentsParagraph, .homeMomentsParagraph2, .homeMomentsSpan{
+       font-size:30px; 
+    }
+    
+    
+    }
+
+    @media screen and (min-width:1800px){
+        .homeMomentsTitle, .homeMomentsTitle2{
+            font-size:42px;
+        }
+        
+        .homeMomentsParagraph, .homeMomentsParagraph2, .homeMomentsSpan{
+           font-size:34px; 
+        }
+        
+        
+        }

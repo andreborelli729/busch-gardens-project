@@ -62,3 +62,26 @@
 
 
 }
+
+@media screen and (min-width:1600px){
+.policyTitle{
+    font-size:46px;
+}
+
+.policyParagraph, .policyItem{
+    font-size:24px;
+}
+
+}
+
+@media screen and (min-width:1800px){
+    .policyTitle{
+        font-size:52px;
+    }
+    
+    .policyParagraph, .policyItem{
+        font-size:28px;
+    }
+    
+    }
+    

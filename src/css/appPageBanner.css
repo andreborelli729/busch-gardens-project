@@ -100,7 +100,9 @@
         padding-right:18vw;
         gap:3vw;
     }
-
+.appPageBannerItem{
+    font: size 14px;
+}
     .appPageBannerImg1{
         width:25vw;
         height:20vh;
@@ -121,3 +123,30 @@
             }
 
 }
+
+@media screen and (min-width:1500px){
+.appPageBannerTitle{
+    font-size:50px;
+}
+
+.appPageBannerSubtitle{
+    font-size:38px;
+}
+
+.appPageBannerParagraph{
+    font-size:26px;
+}
+}
+@media screen and (min-width:1700px){
+
+.appPageBannerItem{
+    font-size:22px;
+}
+}
+
+@media screen and (min-width:1800px){
+
+    .appPageBannerItem{
+        font-size:25px;
+    }
+    }

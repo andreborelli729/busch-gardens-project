@@ -56,3 +56,24 @@
 
 
     }
+    @media screen and (min-width:1600px){
+
+.cashlessBannerTitle{
+    font-size:44px;
+}
+
+.cashlessBannerParagraph{
+    font-size:24px;
+}
+    }
+
+    @media screen and (min-width:1800px){
+
+        .cashlessBannerTitle{
+            font-size:48px;
+        }
+        
+        .cashlessBannerParagraph{
+            font-size:28px;
+        }
+            }

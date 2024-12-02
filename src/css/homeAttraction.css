@@ -130,3 +130,35 @@
     margin-bottom:2vw;
 }
 }
+
+@media screen and (min-width:1400px){
+.homeAttractionTitle{
+font-size:36px;
+}
+
+.homeAttractionParagraph{
+    font-size: 27px;
+}
+
+.homeAttractionBtn{
+    font-size:27px;
+}
+
+
+}
+
+@media screen and (min-width:1800px){
+    .homeAttractionTitle{
+    font-size:42px;
+    }
+    
+    .homeAttractionParagraph{
+        font-size: 32px;
+    }
+    
+    .homeAttractionBtn{
+        font-size:32px;
+    }
+    
+    
+    }

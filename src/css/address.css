@@ -94,5 +94,56 @@
         }
         
         }
+        @media screen and (min-width:1200px){
+.addressBtn{
+    font-size:18px;
+}
+        }
+
+        @media screen and (min-width:1600px){
+            .addressTitle{
+                font-size: 46px;
+            }
+
+            .addressSubTitle{
+                font-size:34px;
+            }
+            
+
+            .addressParagraph{
+                font-size:26px;
+            }
+
+            .addressBtn{
+                font-size:26px;
+            }
+            .addressSpan{
+                font-size:26px;
+            }
+            }
+
+            @media screen and (min-width:1800px){
+                .addressTitle{
+                    font-size: 54px;
+                }
+    
+                .addressSubTitle{
+                    font-size:42px;
+                }
+                
+    
+                .addressParagraph{
+                    font-size:34px;
+                }
+    
+                .addressBtn{
+                    font-size:34px;
+                }
+
+                .addressSpan{
+                    font-size:34px;
+                }
+                }
+            
         
     

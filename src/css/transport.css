@@ -1,0 +1,133 @@
+@media screen and (min-width:1px){
+    .transport{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:300px){
+    .transport{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+    }
+.transportBanner{
+    width:100%;
+    height:30vh;
+    margin-bottom:15vh;
+}
+
+.transportParagraph{
+    color:black;
+    font-size:18px;
+    line-height:32px;
+    margin-bottom:3vh;
+    width:80vw;
+    margin-left:2vw;
+}
+
+.transportBtn{
+    color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+    cursor:pointer;
+    font-size:20px;
+    background-color: rgb(153, 204, 51);
+    border:none;
+    border-radius:5px;
+    width:56vw;
+    margin-left:22vw;
+    height: 15vh;
+}
+
+.transportLogo1,.transportLogo2,.transportLogo3,
+.transportLogo4,.transportLogo5 {
+    width:40vw;
+    margin-left:30vw;
+    height:35vh;
+    margin-bottom:15vh;
+}
+
+.transportUnderline{
+    width:90vw;
+    margin-left:5vw;
+}
+}
+
+@media screen and (min-width:700px){
+.transportBanner{
+    height:40vh;
+}
+
+}
+
+@media screen and (min-width:900px){
+    .transportBanner{
+        height:50vh;
+    }
+    
+    }
+    
+
+@media screen and (min-width:1024px){
+  .transportLogoContainer{
+    display:grid;
+    grid-template-columns:1fr,1fr,1fr,1fr,1fr;
+    padding-left:15vw;
+    padding-right:15vw;
+  }
+
+
+  .transportLogo1,.transportLogo2,.transportLogo3,.transportLogo4,.transportLogo5{
+    width:9vw;
+    height:10vh;
+    margin-left:0;
+    
+  }
+
+  .transportUnderline{
+    width:70vw;
+    margin-left:15vw;
+  }
+
+  .transportLogo1{
+    grid-column:1;
+  }
+  .transportLogo2{
+    grid-column:2;
+  }
+  .transportLogo3{
+    grid-column:3;
+  }
+  .transportLogo4{
+    grid-column:4;
+  }
+  .transportLogo5{
+    grid-column:5;
+  }
+}
+
+@media screen and (min-width:1400px){
+
+    .transportParagraph{
+        font-size:24px;
+        line-height:40px;
+    }
+
+
+}
+
+@media screen and (min-width:1800px){
+
+    .transportParagraph{
+        font-size:30px;
+        line-height:55px;
+    }
+
+
+}
+

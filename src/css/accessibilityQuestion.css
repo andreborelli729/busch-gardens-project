@@ -93,3 +93,32 @@
 
 }
 
+@media screen and (min-width:1500px){
+.questionTitle{
+    font-size:34px;
+}
+
+.singleQuestionTitle{
+    font-size:30px;
+
+}
+.singleQuestionParagraph{
+    font-size: 28px;
+}
+}
+
+
+@media screen and (min-width:1800px){
+    .questionTitle{
+        font-size:38px;
+    }
+    
+    .singleQuestionTitle{
+        font-size:34px;
+    
+    }
+    .singleQuestionParagraph{
+        font-size: 32px;
+    }
+    }
+    

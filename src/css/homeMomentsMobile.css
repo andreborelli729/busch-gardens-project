@@ -1,0 +1,108 @@
+@media screen and (min-width:1px){
+    .homeMomentsMobile{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:300px){
+    .homeMomentsMobile{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+        margin-bottom:40vh;
+    }
+
+    .homeMomentsImgMobile{
+        width:100vw;
+        height:auto;
+        border-radius:5px;
+        margin-bottom:-50vh;
+        height:60vh;
+
+    }
+
+    .homeMomentsContainerMobile{
+        height:80vh;
+    }
+
+    .homeMomentsTitleMobile{
+        color:white;
+        font-size:24px;
+        font-weight:bolder;
+        margin-left:7vw;
+        margin-bottom:4vh;
+    }
+
+
+    .homeMomentsParagraphMobile, .homeMomentsParagraph2Mobile{
+        font-size:16px;
+        margin-bottom:4vh;
+
+        width:86vw;
+        margin-left:7vw;
+        color:white;
+    }
+
+    .homeMomentsParagraph2Mobile{
+        font-weight:bold;
+    }
+
+   
+    .homeMomentsBtnMobile{
+        text-transform:uppercase;
+        color:white;
+        height:10vh;
+        font-size:18px;
+        font-weight:bold;
+        background-color: rgb(153, 204, 51);
+        border-radius:5px;
+        width:40vw;
+        margin-left:7vw;
+    }
+
+  
+
+  
+}
+
+@media screen and (min-width:500px){
+.homeMomentsImgMobile{
+    height:70vh;
+}
+
+.homeMomentsTitleMobile{
+    font-size:28px;
+
+
+}
+.homeMomentsParagraphMobile, .homeMomentsParagraph2Mobile{
+    font-size:20px;
+}
+}
+
+@media screen and (min-width:700px){
+.homeMomentsBtnMobile{
+    width:25vw;
+}
+
+}
+
+.homeMomentsTitleMobile, .homeMomentsParagraph2Mobile, .homeMomentsParagraphMobile{
+    width:60vw;
+}
+
+
+@media screen and (min-width:1024px){
+    .homeMomentsMobile{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}

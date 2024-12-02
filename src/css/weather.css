@@ -113,7 +113,7 @@
         grid-column:2;
         width:50vw;
     }
-    .weatherItemSpan{
+    .weatherSpan{
         font-size:20px;
         color:black;
         
@@ -133,3 +133,31 @@ margin-left:30vw;
     margin-left:15vw;
 }
 }
+
+@media screen and (min-width:1600px){
+.weatherTitle{
+    font-size:46px;
+}
+
+.weatherParagraph, .weatherParagraph2, .weatherBtn, .weatherSpan, .weatherList{
+    font-size:26px;
+}
+
+.weatherBtn{
+    height:9vh;
+}
+
+}
+@media screen and (min-width:1800px){
+    .weatherTitle{
+        font-size:52px;
+    }
+    
+    .weatherParagraph, .weatherParagraph2, .weatherBtn, .weatherSpan, .weatherList{
+        font-size:30px;
+    }
+    
+    
+    
+    }
+    
