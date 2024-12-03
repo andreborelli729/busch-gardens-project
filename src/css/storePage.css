@@ -1,0 +1,155 @@
+@media screen and (min-width:1px){
+    .storePage{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .storePage{
+        width:100%;
+        height:auto;
+        display:block;
+        opacity:1;
+        padding-top:20vh;
+
+    }
+    .storePageTitleContainer{
+        width:100%;
+        height:23vh;
+        background-color: rgb(153, 204, 51);
+        padding-left:4vw;
+        box-sizing:border-box;
+    }
+
+    .storePageTitle{
+        font-size:42px;
+        font-weight:bold;
+        color:white;
+        padding-top:7vh;
+
+    }
+.storePageStoreTitle{
+    font-weight:bold;
+    font-size:28px;
+    color:rgb(153, 204, 51);
+    margin-top:3vh;
+    margin-bottom:5vh;
+
+}
+
+.storePageStoreParagraph{
+    font-size:20px;
+    color:black;
+    line-height:25px;
+}
+    .storePageStoresContainer{
+        display:grid;
+        width:100%; 
+        padding-left:4vw;
+        box-sizing:border-box;
+        margin-top:15vh;
+        grid-template-columns:1fr,1fr,1fr;
+        grid-template-rows:1fr,1fr,1fr,1fr;
+        margin-bottom:20vh;
+    }
+
+    .storePageFigure1{
+        grid-column:1;
+        grid-row:1;
+        margin-bottom:15vh;
+        width:27vw;
+    }
+    .storePageFigure2{
+        grid-column:2;
+        grid-row:1;
+        width:27vw;
+    }
+    .storePageFigure3{
+        grid-column:3;
+        grid-row:1;
+        width:27vw;
+    }
+    .storePageFigure4{
+        grid-column:1;
+        margin-bottom:15vh;
+
+        grid-row:2;
+        width:27vw;
+    }
+    .storePageFigure5{
+        grid-column:2;
+        grid-row:2;
+        width:27vw;
+    }
+    .storePageFigure6{
+        grid-column:3;
+        grid-row:2;
+        width:27vw;
+    }
+    .storePageFigure7{
+        grid-column:1;
+        grid-row:3;
+        width:27vw;
+        margin-bottom:15vh;
+
+    }
+    .storePageFigure8{
+        grid-column:2;
+        grid-row:3;
+        width:27vw;
+    }
+    .storePageFigure9{
+        grid-column:3;
+        grid-row:3;
+        width:27vw;
+    }
+    .storePageFigure10{
+        grid-column:1;
+        grid-row:4;
+        width:27vw;
+    }
+    .storePageFigure11{
+        grid-column:2;
+        grid-row:4;
+        width:27vw;
+    }
+
+    .storePageImg{
+        width:25vw;
+    }
+
+    .storePageFigcaption{
+        height:50vh;
+        background-color:rgb(250,250,250);
+    }
+
+}
+
+@media screen and (min-width:1500px){
+.storePageStoreTitle{
+    font-size:34px;
+
+}
+.storePageStoreParagraph{
+    font-size:25px;
+    line-height:35px;
+
+}
+}
+
+
+@media screen and (min-width:1700px){
+    .storePageStoreTitle{
+        font-size:42px;
+    
+    }
+    .storePageStoreParagraph{
+        font-size:28px;
+        line-height:48px;
+    
+    }
+    }

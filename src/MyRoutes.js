@@ -12,6 +12,7 @@ import Page404 from './pages/Page404.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
+import Store from './pages/Store.js';
 
 function MyRoutes(){
     return(
@@ -27,6 +28,8 @@ function MyRoutes(){
            <Route path="/aplicativo" element={<AppPage/>}></Route>
            <Route path="/transporte-gratuito" element={<Transport/>}></Route>
            <Route path="/politica-do-parque" element={<Policy/>}></Route>
+           <Route path="/lojas" element={<Store/>}></Route>
+
            <Route path="*" element={<Page404/>}></Route>
 
 

@@ -13,7 +13,10 @@
         width:100%;
         height:auto;
         opacity:1;
+        
     }
+
+
 
     .singleQuestion{
         display:inline-block;
@@ -23,6 +26,7 @@
     .question{
         display:block;
         margin-top:25vh;
+        margin-bottom:15vh;
     }
 
     .singleQuestionTitle{
