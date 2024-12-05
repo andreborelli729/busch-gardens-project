@@ -44,6 +44,7 @@
             cursor:pointer;
             font-weight:bold;
             text-transform:uppercase;
+            margin-bottom:15vh;
         }
 
         .errorImg{

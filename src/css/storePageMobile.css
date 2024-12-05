@@ -20,6 +20,11 @@
     .storePageImgMobile{
         width:100vw;
         height:auto;
+        transition: transform 0.5s;
+    }
+
+    .storePageImgMobile:hover{
+        transform: scale(1.1);
     }
 
     .storePageTitleContainerMobile{
@@ -41,10 +46,14 @@
     .storePageStoresContainerMobile{
         width:100%;
         height:auto;
-        background-color:rgb(250, 250, 250);
+       
     }
 .storePageFigcaptionMobile{
     height:40vh;
+}
+
+.storePageFigcaptionMobile2{
+    height:15vh;
 }
     .storePageStoreTitleMobile{
     font-size:22px;

@@ -1,0 +1,36 @@
+@media screen and (min-width:1px){
+    .homeCarouselImg{
+        width:100%;
+        height:40vh;
+        object-fit:cover;
+     
+    }
+.homeCarousel{
+    padding-top:40vh;
+    margin-bottom:20vh;
+    width:100%;
+    height:auto;
+}
+}
+
+
+
+@media screen and (min-width:600px){
+    .homeCarouselImg{
+       
+        height:60vh;
+     
+    }
+
+}
+
+
+
+@media screen and (min-width:750px){
+    .homeCarouselImg{
+       
+        height:60vh;
+     
+    }
+
+}

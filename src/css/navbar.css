@@ -162,7 +162,7 @@ li {
 .main-nav .menubar__button {
   display: block!important;
   float: right;
-  background-color: #080808;
+  background-color: white;
   color: rgb(153, 204, 51);
   padding: 6px 7px;
   border-radius: 5px;

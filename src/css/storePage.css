@@ -120,11 +120,25 @@
 
     .storePageImg{
         width:25vw;
+        transition: transform 0.5s;
+        cursor:pointer;
+
+    }
+
+    .storePageImg:hover{
+        transform: scale(1.1);
+        box-sizing:border-box;
     }
 
     .storePageFigcaption{
         height:50vh;
         background-color:rgb(250,250,250);
+    }
+
+    .storePageFigcaption2{
+        height:20vh;
+        background-color:rgb(250,250,250);
+
     }
 
 }

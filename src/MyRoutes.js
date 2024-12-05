@@ -13,6 +13,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import Store from './pages/Store.js';
+import Presentation from './pages/Presentation.js';
+import Restaurant from './pages/Restaurant.js';
+import Experience from './pages/Experience.js';
+import Attraction from './pages/Attraction.js';
 
 function MyRoutes(){
     return(
@@ -29,6 +33,13 @@ function MyRoutes(){
            <Route path="/transporte-gratuito" element={<Transport/>}></Route>
            <Route path="/politica-do-parque" element={<Policy/>}></Route>
            <Route path="/lojas" element={<Store/>}></Route>
+           <Route path="/apresentacoes" element={<Presentation/>}></Route>
+           <Route path="/restaurantes" element={<Restaurant/>}></Route>
+           <Route path="/experiencias" element={<Experience/>}></Route>
+           <Route path="/atracoes" element={<Attraction/>}></Route>
+
+
+
 
            <Route path="*" element={<Page404/>}></Route>
 
